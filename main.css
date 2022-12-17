@@ -1,0 +1,56 @@
+.Menu.ul.a {
+  list-style-type: none;
+  margin: 5;
+  padding: 5
+  
+  
+  }
+
+  
+  
+  
+  
+  
+  .banner {
+      width: 100%; 
+      }
+  
+  .text-img { 
+    position: relative; 
+    left: 40px;
+    bottom: 350px;
+   color: whitesmoke;
+  }
+  .text-middle {
+    position: relative;
+  bottom: 80px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 20px;
+    
+   }
+   .row1
+    {
+      display: grid;
+      row-gap: 20px;
+      
+    }
+    .row2
+    {
+      display: grid;
+      row-gap: 20px;
+      
+    }
+  .content {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+  .content3 {
+   margin-left: 40px;
+  }
+  .content2 {
+    margin-left: 30px;
+  }
+  
