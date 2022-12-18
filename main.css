@@ -1,56 +1,101 @@
-.Menu.ul.a {
-  list-style-type: none;
-  margin: 5;
-  padding: 5
-  
-  
-  }
+body {
+  padding: 0px;
+  margin: 0px;
+}
 
-  
-  
-  
-  
-  
-  .banner {
-      width: 100%; 
-      }
-  
-  .text-img { 
-    position: relative; 
-    left: 40px;
-    bottom: 350px;
-   color: whitesmoke;
-  }
-  .text-middle {
-    position: relative;
-  bottom: 80px;
-  }
-  .row {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    gap: 20px;
-    
-   }
-   .row1
-    {
-      display: grid;
-      row-gap: 20px;
-      
-    }
-    .row2
-    {
-      display: grid;
-      row-gap: 20px;
-      
-    }
-  .content {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-  }
-  .content3 {
-   margin-left: 40px;
-  }
-  .content2 {
-    margin-left: 30px;
-  }
-  
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 15px 50px 15px 50px;
+  padding: 0px;
+}
+
+.text-img {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  /* margin: 50px; */
+  transform: translate(-153%, -50%);
+  color: white;
+}
+
+.text-img h1 {
+  padding-right: 95px;
+}
+
+.banner img {
+  display: inline-block;
+  width: 100%;
+
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+
+li {
+  display: inline;
+  padding: 7px 5px 7px 5px;
+}
+
+
+.text-middle {
+  background-color: rgb(232, 232, 229);
+  padding: 10px 0px 30px 0px;
+
+}
+
+h2 {
+  margin: 15px 50px 15px 50px;
+}
+
+.text-middle p {
+  margin: 15px 50px 15px 50px;
+
+}
+
+.image-middle {
+  margin: 15px 50px 15px 50px;
+
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 50px;
+
+}
+
+.row1 {
+  display: grid;
+  row-gap: 20px;
+
+}
+
+.row2 {
+  display: grid;
+  row-gap: 20px;
+
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 15px 0px 70px 50px;
+}
+
+
+.content1 {
+  margin-right: 40px;
+}
+
+.content2 {
+  margin-right: 60px;
+}
